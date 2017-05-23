@@ -4,10 +4,10 @@ import {Navbar,Nav,NavItem} from "react-bootstrap";
  export class Header extends React.Component{
     render(){
       return(
-        <Navbar>
+        <Navbar className="glicq-header">
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="Home">React-Bootstrap</a>
+              <a className="navbar-brand" href="#"><img src="assets/imgs/logo.png" /></a>
           </Navbar.Brand>
         </Navbar.Header>
         <Nav>

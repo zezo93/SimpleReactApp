@@ -1,0 +1,126 @@
+  body.login-page {
+    background: url("../imgs/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(2, 26, 50);
+    color: #ffffff;
+  }
+
+  .glicq-header {
+    background-color: #0C2D40;
+    height: 58px;
+    display: block;
+    border: none;
+  }
+
+  .login-form-wrap {
+    max-width: 460px;
+    background-color: rgba(12, 45, 64, 0.62);
+    margin: 50px 50px;
+    border-radius: 8px;
+    padding: 50px 25px 65px;
+  }
+
+  .login-form-wrap .label {
+    height: 19px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 19px;
+    text-align: left;
+    padding: 0;
+    display: block;
+  }
+
+  .login-form-wrap .form-input {
+    color: #ffffff;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 26px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #FFFFFF;
+  }
+
+  .login-form-wrap .form-group {
+    margin-bottom: 35px;
+  }
+
+  .login-form-wrap .btn-login-wrap {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+
+  .login-form-wrap .signUp {
+    height: 14px;
+  }
+
+  .login-form-wrap .signUp {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Helvetica Neue", sans-serif, monospace;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+  }
+
+  .login-form-wrap .signUp .sep {
+    display: none;
+  }
+
+  .login-form-wrap .signUp a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+  }
+
+  .login-form-wrap .btn-login {
+    padding: 5px 40px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #12A8A6;
+    color: #FFFFFF;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .login-form-wrap .btn-login:focus, .login-form-wrap .btn-login:hover, .login-form-wrap .btn-login::selection {
+    color: #FFFfff;
+    outline: none;
+  }
+
+  @media only screen and (min-width: 475px) {
+    .login-form-wrap {
+      padding: 110px 80px 65px;
+      margin: 50px auto;
+    }
+    .login-form-wrap .form-input {
+      font-size: 16px;
+    }
+    .login-form-wrap .btn-login {
+      padding: 9px 80px;
+      font-size: 15px;
+    }
+    .login-form-wrap .signUp a {
+      font-size: 12px;
+      display: inline;
+    }
+    .login-form-wrap .btn-login-wrap {
+      margin-top: 60px;
+      margin-bottom: 45px;
+    }
+    .login-form-wrap .signUp .sep {
+      display: inline-block;
+    }
+  }
