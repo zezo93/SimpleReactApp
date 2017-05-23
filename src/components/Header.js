@@ -11,9 +11,7 @@ import {Navbar,Nav,NavItem} from "react-bootstrap";
           </Navbar.Brand>
         </Navbar.Header>
         <Nav>
-          <NavItem  href="Home">Home</NavItem>
-          <NavItem  href="About">About</NavItem>
-          <NavItem  href="Terms">Terms</NavItem>
+          
         </Nav>
         </Navbar>
       );
